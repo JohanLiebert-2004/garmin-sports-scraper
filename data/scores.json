@@ -1,57 +1,6 @@
 {
-  "matches": [
-    {
-      "sport": "Football",
-      "home": "Villarreal",
-      "away": "Atl\u00e9tico",
-      "scoreHome": "4",
-      "scoreAway": "1",
-      "phase": "45'+6'",
-      "event": "La Liga",
-      "updated": "19:55 UTC"
-    },
-    {
-      "sport": "Football",
-      "home": "Milan",
-      "away": "Cagliari",
-      "scoreHome": "1",
-      "scoreAway": "1",
-      "phase": "45'+2'",
-      "event": "Serie A",
-      "updated": "19:55 UTC"
-    },
-    {
-      "sport": "Football",
-      "home": "Cremonese",
-      "away": "Como",
-      "scoreHome": "0",
-      "scoreAway": "1",
-      "phase": "45'+6'",
-      "event": "Serie A",
-      "updated": "19:55 UTC"
-    },
-    {
-      "sport": "Football",
-      "home": "Verona",
-      "away": "AS Roma",
-      "scoreHome": "0",
-      "scoreAway": "0",
-      "phase": "45'+2'",
-      "event": "Serie A",
-      "updated": "19:55 UTC"
-    },
-    {
-      "sport": "Football",
-      "home": "Lecce",
-      "away": "Genoa",
-      "scoreHome": "1",
-      "scoreAway": "0",
-      "phase": "45'+2'",
-      "event": "Serie A",
-      "updated": "19:55 UTC"
-    }
-  ],
-  "updated": "19:55 UTC",
-  "count": 5,
-  "source": "live"
+  "matches": [],
+  "updated": "23:42 UTC",
+  "count": 0,
+  "source": "no-live-matches"
 }
