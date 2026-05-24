@@ -1,8 +1,4 @@
 #!/usr/bin/env python3
-"""
-Sports scraper - runs via GitHub Actions every 3 minutes
-Scrapes live scores from multiple sources and writes data/scores.json
-"""
 import requests, json, re
 from datetime import datetime, timezone
 from bs4 import BeautifulSoup
@@ -19,13 +15,14 @@ def now_utc():
 def trim(v, n):
     return str(v)[:n] if v else ""
 
-# ── FOOTBALL + AFL via ESPN ──────────────────────────────────────────────────
 def espn_sport(sport_label, url, event_label=""):
     out = []
     try:
         r = requests.get(url, headers=HEADERS, timeout=15)
         data = r.json()
-        for e in data.get("events", []):
+        events = data.get("events", [])
+        print(f"  [{sport_label}] {len(events)} events from ESPN")
+        for e in events:
             if len(out) >= 5: break
             comps = e.get("competitions", [])
             if not comps: continue
@@ -33,7 +30,9 @@ def espn_sport(sport_label, url, event_label=""):
             competitors = comp.get("competitors", [])
             if len(competitors) < 2: continue
             status = e.get("status", {})
-            if status.get("type", {}).get("state", "") != "in": continue
+            state = status.get("type", {}).get("state", "")
+            print(f"    {e.get('name','?')} state={state}")
+            if state != "in": continue
             home = next((c for c in competitors if c.get("homeAway") == "home"), competitors[0])
             away = next((c for c in competitors if c.get("homeAway") == "away"), competitors[1])
             def name(c):
@@ -49,7 +48,7 @@ def espn_sport(sport_label, url, event_label=""):
                 "updated": now_utc()
             })
     except Exception as ex:
-        print(f"  [{sport_label}] ESPN error: {ex}")
+        print(f"  [{sport_label}] ERROR: {ex}")
     return out
 
 def football():
@@ -62,95 +61,98 @@ def football():
 def afl():
     return espn_sport("AFL", "https://site.api.espn.com/apis/site/v2/sports/australian-football/afl/scoreboard", "AFL")[:5]
 
-# ── TENNIS via Flashscore scrape ─────────────────────────────────────────────
 def tennis():
     out = []
     try:
-        # Flashscore tennis livescore page
+        # Use livescore.com unofficial JSON feed
         r = requests.get(
-            "https://www.flashscore.com/tennis/",
-            headers={**HEADERS, "Referer": "https://www.flashscore.com/"},
+            "https://www.livescore.com/en/tennis/",
+            headers={**HEADERS, "Referer": "https://www.livescore.com/"},
             timeout=15
         )
-        # Flashscore embeds score data in a custom JS format
-        # Look for pattern: ¬~AA÷matchid¬...
-        text = r.text
-        # Try to find live match data in the page source
-        # Flashscore uses a specific delimiter format
-        matches_raw = re.findall(r'AA÷([^¬]+)¬AB÷([^¬]+)¬', text)
-        print(f"  [Tennis] Flashscore raw matches found: {len(matches_raw)}")
+        soup = BeautifulSoup(r.text, "html.parser")
+        # Try to find embedded JSON data
+        scripts = soup.find_all("script")
+        for s in scripts:
+            text = s.string or ""
+            if "Roland" in text or "roland" in text or "ATP" in text:
+                print(f"  [Tennis] Found ATP script len={len(text)}")
+                # Try extract JSON
+                m = re.search(r'"events"\s*:\s*(\[.*?\])', text, re.DOTALL)
+                if m:
+                    print(f"  [Tennis] Found events JSON")
+                break
 
-        # Alternative: use their public JSON endpoint
+        # Try direct livescore API
         r2 = requests.get(
-            "https://d.flashscore.com/x/feed/f_1_tennis_0_en_1",
+            "https://prod-cdn-public-api.livescore.com/v1/api/app/date/tennis/20260524/0?MD=1",
             headers={**HEADERS,
-                     "X-fsign": "SW9D1eZo",
-                     "Referer": "https://www.flashscore.com/"},
+                     "origin": "https://www.livescore.com",
+                     "referer": "https://www.livescore.com/"},
             timeout=15
         )
-        print(f"  [Tennis] Flashscore feed HTTP {r2.status_code} size={len(r2.content)}")
+        print(f"  [Tennis] livescore.com API HTTP {r2.status_code} size={len(r2.content)}")
         if r2.status_code == 200:
-            content = r2.text
-            # Parse flashscore custom format: fields separated by ¬, records by ~
-            blocks = content.split("~")
-            for block in blocks[:20]:
-                if "¬" in block:
-                    fields = dict(re.findall(r'([A-Z]{2})÷([^¬]*)', block))
-                    if fields.get("AC") == "1":  # AC=1 means live/in-progress
-                        home = trim(fields.get("CG","?"), 14)
-                        away = trim(fields.get("CH","?"), 14)
-                        sh = fields.get("CF","0")
-                        sa = fields.get("CG2","0")
-                        phase = trim(fields.get("EV","Live"), 12)
-                        if home and away and home != "?":
-                            out.append({
-                                "sport": "Tennis ATP",
-                                "home": home, "away": away,
-                                "scoreHome": sh, "scoreAway": sa,
-                                "phase": phase,
-                                "event": "Roland Garros",
-                                "updated": now_utc()
-                            })
-                        if len(out) >= 5: break
+            data = r2.json()
+            stages = data.get("Stages", [])
+            print(f"  [Tennis] {len(stages)} stages")
+            for stage in stages:
+                events = stage.get("Events", [])
+                for e in events:
+                    if len(out) >= 5: break
+                    # Eps = status: 1=not started, 2=live, 3=finished
+                    if e.get("Eps") != "2": continue
+                    home = trim(e.get("T1",[{}])[0].get("Nm","P1").split()[-1], 14)
+                    away = trim(e.get("T2",[{}])[0].get("Nm","P2").split()[-1], 14)
+                    sh = str(e.get("Tr1","0"))
+                    sa = str(e.get("Tr2","0"))
+                    phase = trim(e.get("Stg","Live"), 12)
+                    comp_name = trim(stage.get("Cnm","Roland Garros"), 18)
+                    out.append({
+                        "sport": "Tennis ATP",
+                        "home": home, "away": away,
+                        "scoreHome": sh, "scoreAway": sa,
+                        "phase": phase,
+                        "event": comp_name,
+                        "updated": now_utc()
+                    })
     except Exception as ex:
-        print(f"  [Tennis] Error: {ex}")
+        print(f"  [Tennis] ERROR: {ex}")
+    print(f"  [Tennis] {len(out)} live matches found")
     return out
 
-# ── CRICKET via Cricbuzz unofficial ─────────────────────────────────────────
 def cricket():
     out = []
     try:
         r = requests.get(
-            "https://cricbuzz-cricket.p.rapidapi.com/matches/v1/live",
+            "https://prod-cdn-public-api.livescore.com/v1/api/app/date/cricket/20260524/0?MD=1",
             headers={**HEADERS,
-                     "x-rapidapi-host": "cricbuzz-cricket.p.rapidapi.com",
-                     "x-rapidapi-key": "RAPIDAPI_KEY_HERE"},
-            timeout=12
+                     "origin": "https://www.livescore.com",
+                     "referer": "https://www.livescore.com/"},
+            timeout=15
         )
+        print(f"  [Cricket] livescore API HTTP {r.status_code} size={len(r.content)}")
         if r.status_code == 200:
             data = r.json()
-            for item in data.get("typeMatches", []):
-                for series in item.get("seriesMatches", []):
-                    for match in series.get("seriesAdWrapper", {}).get("matches", []):
-                        if len(out) >= 5: break
-                        mi = match.get("matchInfo", {})
-                        ms = match.get("matchScore", {})
-                        team1 = trim(mi.get("team1", {}).get("teamSName", "T1"), 14)
-                        team2 = trim(mi.get("team2", {}).get("teamSName", "T2"), 14)
-                        inn1 = ms.get("team1Score", {}).get("inngs1", {})
-                        inn2 = ms.get("team2Score", {}).get("inngs1", {})
-                        s1 = f"{inn1.get('runs',0)}/{inn1.get('wickets',0)}"
-                        s2 = f"{inn2.get('runs',0)}/{inn2.get('wickets',0)}"
-                        out.append({
-                            "sport": "Cricket",
-                            "home": team1, "away": team2,
-                            "scoreHome": s1, "scoreAway": s2,
-                            "phase": trim(mi.get("status","Live"), 12),
-                            "event": trim(mi.get("seriesName",""), 18),
-                            "updated": now_utc()
-                        })
+            for stage in data.get("Stages", []):
+                for e in stage.get("Events", []):
+                    if len(out) >= 5: break
+                    if e.get("Eps") != "2": continue
+                    home = trim(e.get("T1",[{}])[0].get("Nm","T1"), 14)
+                    away = trim(e.get("T2",[{}])[0].get("Nm","T2"), 14)
+                    sh = str(e.get("Tr1","0"))
+                    sa = str(e.get("Tr2","0"))
+                    out.append({
+                        "sport": "Cricket",
+                        "home": home, "away": away,
+                        "scoreHome": sh, "scoreAway": sa,
+                        "phase": trim(e.get("Stg","Live"), 12),
+                        "event": trim(stage.get("Cnm",""), 18),
+                        "updated": now_utc()
+                    })
     except Exception as ex:
-        print(f"  [Cricket] Error: {ex}")
+        print(f"  [Cricket] ERROR: {ex}")
+    print(f"  [Cricket] {len(out)} live matches found")
     return out
 
 def main():
@@ -160,11 +162,9 @@ def main():
     matches += tennis()
     matches += cricket()
     matches += afl()
-
     print(f"Total live matches: {len(matches)}")
     for m in matches:
-        print(f"  [{m['sport']}] {m['home']} {m['scoreHome']}-{m['scoreAway']} {m['away']} ({m['phase']})")
-
+        print(f"  [{m['sport']}] {m['home']} {m['scoreHome']}-{m['scoreAway']} {m['away']} | {m['phase']} {m['event']}")
     output = {
         "matches": matches,
         "updated": now_utc(),
