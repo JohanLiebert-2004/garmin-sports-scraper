@@ -1,17 +1,6 @@
 {
-  "matches": [
-    {
-      "sport": "AFL",
-      "home": "Adelaide Crows",
-      "away": "Geelong Cats",
-      "scoreHome": "39",
-      "scoreAway": "33",
-      "phase": "30:29",
-      "event": "AFL",
-      "updated": "10:51 UTC"
-    }
-  ],
-  "updated": "10:51 UTC",
-  "count": 1,
-  "source": "live"
+  "matches": [],
+  "updated": "18:37 UTC",
+  "count": 0,
+  "source": "no-live-matches"
 }
