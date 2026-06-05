@@ -1,17 +1,6 @@
 {
-  "matches": [
-    {
-      "sport": "AFL",
-      "home": "Hawthorn",
-      "away": "Western Bulldo",
-      "scoreHome": "66",
-      "scoreAway": "58",
-      "phase": "30:51",
-      "event": "AFL",
-      "updated": "11:39 UTC"
-    }
-  ],
-  "updated": "11:39 UTC",
-  "count": 1,
-  "source": "live"
+  "matches": [],
+  "updated": "18:26 UTC",
+  "count": 0,
+  "source": "no-live-matches"
 }
