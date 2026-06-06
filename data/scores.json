@@ -1,6 +1,17 @@
 {
-  "matches": [],
-  "updated": "22:45 UTC",
-  "count": 0,
-  "source": "no-live-matches"
+  "matches": [
+    {
+      "sport": "AFL",
+      "home": "Gold Coast SUN",
+      "away": "Brisbane Lions",
+      "scoreHome": "39",
+      "scoreAway": "55",
+      "phase": "25:31",
+      "event": "AFL",
+      "updated": "08:16 UTC"
+    }
+  ],
+  "updated": "08:16 UTC",
+  "count": 1,
+  "source": "live"
 }
