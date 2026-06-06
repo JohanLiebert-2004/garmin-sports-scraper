@@ -1,17 +1,6 @@
 {
-  "matches": [
-    {
-      "sport": "AFL",
-      "home": "West Coast Eag",
-      "away": "Port Adelaide",
-      "scoreHome": "53",
-      "scoreAway": "69",
-      "phase": "33:06",
-      "event": "AFL",
-      "updated": "12:17 UTC"
-    }
-  ],
-  "updated": "12:17 UTC",
-  "count": 1,
-  "source": "live"
+  "matches": [],
+  "updated": "16:40 UTC",
+  "count": 0,
+  "source": "no-live-matches"
 }
