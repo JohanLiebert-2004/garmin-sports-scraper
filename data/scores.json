@@ -1,6 +1,17 @@
 {
-  "matches": [],
-  "updated": "21:28 UTC",
-  "count": 0,
-  "source": "no-live-matches"
+  "matches": [
+    {
+      "sport": "AFL",
+      "home": "Geelong Cats",
+      "away": "Gold Coast SUN",
+      "scoreHome": "72",
+      "scoreAway": "46",
+      "phase": "8:10",
+      "event": "AFL",
+      "updated": "11:51 UTC"
+    }
+  ],
+  "updated": "11:51 UTC",
+  "count": 1,
+  "source": "live"
 }
