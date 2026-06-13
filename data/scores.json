@@ -1,6 +1,17 @@
 {
-  "matches": [],
-  "updated": "23:04 UTC",
-  "count": 0,
-  "source": "no-live-matches"
+  "matches": [
+    {
+      "sport": "AFL",
+      "home": "Port Adelaide",
+      "away": "Sydney Swans",
+      "scoreHome": "24",
+      "scoreAway": "20",
+      "phase": "29:05",
+      "event": "AFL",
+      "updated": "10:08 UTC"
+    }
+  ],
+  "updated": "10:08 UTC",
+  "count": 1,
+  "source": "live"
 }
