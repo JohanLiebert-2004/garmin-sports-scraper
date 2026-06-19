@@ -1,17 +1,6 @@
 {
-  "matches": [
-    {
-      "sport": "AFL",
-      "home": "Gold Coast SUN",
-      "away": "Hawthorn",
-      "scoreHome": "74",
-      "scoreAway": "105",
-      "phase": "7:26",
-      "event": "AFL",
-      "updated": "11:55 UTC"
-    }
-  ],
-  "updated": "11:55 UTC",
-  "count": 1,
-  "source": "live"
+  "matches": [],
+  "updated": "18:20 UTC",
+  "count": 0,
+  "source": "no-live-matches"
 }
