@@ -1,6 +1,17 @@
 {
-  "matches": [],
-  "updated": "08:22 UTC",
-  "count": 0,
-  "source": "no-live-matches"
+  "matches": [
+    {
+      "sport": "AFL",
+      "home": "Hawthorn",
+      "away": "GWS GIANTS",
+      "scoreHome": "72",
+      "scoreAway": "30",
+      "phase": "6:13",
+      "event": "AFL",
+      "updated": "11:20 UTC"
+    }
+  ],
+  "updated": "11:20 UTC",
+  "count": 1,
+  "source": "live"
 }
