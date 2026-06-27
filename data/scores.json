@@ -2,16 +2,16 @@
   "matches": [
     {
       "sport": "AFL",
-      "home": "Collingwood",
-      "away": "Richmond",
-      "scoreHome": "76",
-      "scoreAway": "48",
-      "phase": "29:35",
+      "home": "Port Adelaide",
+      "away": "Adelaide Crows",
+      "scoreHome": "28",
+      "scoreAway": "32",
+      "phase": "11:16",
       "event": "AFL",
-      "updated": "08:13 UTC"
+      "updated": "10:24 UTC"
     }
   ],
-  "updated": "08:13 UTC",
+  "updated": "10:24 UTC",
   "count": 1,
   "source": "live"
 }
