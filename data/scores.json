@@ -2,16 +2,16 @@
   "matches": [
     {
       "sport": "AFL",
-      "home": "Carlton",
-      "away": "West Coast Eag",
-      "scoreHome": "91",
-      "scoreAway": "60",
-      "phase": "12:57",
+      "home": "Collingwood",
+      "away": "Richmond",
+      "scoreHome": "76",
+      "scoreAway": "48",
+      "phase": "29:35",
       "event": "AFL",
-      "updated": "05:34 UTC"
+      "updated": "08:13 UTC"
     }
   ],
-  "updated": "05:34 UTC",
+  "updated": "08:13 UTC",
   "count": 1,
   "source": "live"
 }
