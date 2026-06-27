@@ -1,17 +1,6 @@
 {
-  "matches": [
-    {
-      "sport": "AFL",
-      "home": "Port Adelaide",
-      "away": "Adelaide Crows",
-      "scoreHome": "93",
-      "scoreAway": "58",
-      "phase": "9:29",
-      "event": "AFL",
-      "updated": "11:52 UTC"
-    }
-  ],
-  "updated": "11:52 UTC",
-  "count": 1,
-  "source": "live"
+  "matches": [],
+  "updated": "13:16 UTC",
+  "count": 0,
+  "source": "no-live-matches"
 }
