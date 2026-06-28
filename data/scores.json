@@ -1,6 +1,17 @@
 {
-  "matches": [],
-  "updated": "01:36 UTC",
-  "count": 0,
-  "source": "no-live-matches"
+  "matches": [
+    {
+      "sport": "AFL",
+      "home": "North Melbourn",
+      "away": "Essendon",
+      "scoreHome": "25",
+      "scoreAway": "20",
+      "phase": "9:07",
+      "event": "AFL",
+      "updated": "06:01 UTC"
+    }
+  ],
+  "updated": "06:01 UTC",
+  "count": 1,
+  "source": "live"
 }
