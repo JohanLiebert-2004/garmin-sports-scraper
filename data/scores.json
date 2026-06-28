@@ -1,17 +1,6 @@
 {
-  "matches": [
-    {
-      "sport": "AFL",
-      "home": "Fremantle",
-      "away": "Gold Coast SUN",
-      "scoreHome": "74",
-      "scoreAway": "23",
-      "phase": "19:09",
-      "event": "AFL",
-      "updated": "09:27 UTC"
-    }
-  ],
-  "updated": "09:27 UTC",
-  "count": 1,
-  "source": "live"
+  "matches": [],
+  "updated": "11:20 UTC",
+  "count": 0,
+  "source": "no-live-matches"
 }
