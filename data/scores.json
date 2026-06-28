@@ -2,16 +2,16 @@
   "matches": [
     {
       "sport": "AFL",
-      "home": "North Melbourn",
-      "away": "Essendon",
-      "scoreHome": "25",
-      "scoreAway": "20",
-      "phase": "9:07",
+      "home": "Fremantle",
+      "away": "Gold Coast SUN",
+      "scoreHome": "74",
+      "scoreAway": "23",
+      "phase": "19:09",
       "event": "AFL",
-      "updated": "06:01 UTC"
+      "updated": "09:27 UTC"
     }
   ],
-  "updated": "06:01 UTC",
+  "updated": "09:27 UTC",
   "count": 1,
   "source": "live"
 }
