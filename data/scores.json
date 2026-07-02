@@ -1,6 +1,17 @@
 {
-  "matches": [],
-  "updated": "07:48 UTC",
-  "count": 0,
-  "source": "no-live-matches"
+  "matches": [
+    {
+      "sport": "AFL",
+      "home": "Geelong Cats",
+      "away": "Brisbane Lions",
+      "scoreHome": "26",
+      "scoreAway": "50",
+      "phase": "12:24",
+      "event": "AFL",
+      "updated": "10:23 UTC"
+    }
+  ],
+  "updated": "10:23 UTC",
+  "count": 1,
+  "source": "live"
 }
