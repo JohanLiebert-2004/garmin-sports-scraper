@@ -1,6 +1,27 @@
 {
-  "matches": [],
-  "updated": "08:16 UTC",
-  "count": 0,
-  "source": "no-live-matches"
+  "matches": [
+    {
+      "sport": "AFL",
+      "home": "Sydney Swans",
+      "away": "Western Bulldo",
+      "scoreHome": "53",
+      "scoreAway": "26",
+      "phase": "33:18",
+      "event": "AFL",
+      "updated": "11:03 UTC"
+    },
+    {
+      "sport": "AFL",
+      "home": "West Coast Eag",
+      "away": "Adelaide Crows",
+      "scoreHome": "16",
+      "scoreAway": "57",
+      "phase": "16:02",
+      "event": "AFL",
+      "updated": "11:03 UTC"
+    }
+  ],
+  "updated": "11:03 UTC",
+  "count": 2,
+  "source": "live"
 }
