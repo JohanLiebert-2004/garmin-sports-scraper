@@ -1,17 +1,6 @@
 {
-  "matches": [
-    {
-      "sport": "AFL",
-      "home": "Richmond",
-      "away": "Carlton",
-      "scoreHome": "52",
-      "scoreAway": "65",
-      "phase": "5:48",
-      "event": "AFL",
-      "updated": "11:44 UTC"
-    }
-  ],
-  "updated": "11:44 UTC",
-  "count": 1,
-  "source": "live"
+  "matches": [],
+  "updated": "12:48 UTC",
+  "count": 0,
+  "source": "no-live-matches"
 }
