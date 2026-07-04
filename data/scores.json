@@ -2,16 +2,16 @@
   "matches": [
     {
       "sport": "AFL",
-      "home": "Gold Coast SUN",
-      "away": "Collingwood",
-      "scoreHome": "47",
-      "scoreAway": "57",
-      "phase": "4:56",
+      "home": "Richmond",
+      "away": "Carlton",
+      "scoreHome": "33",
+      "scoreAway": "15",
+      "phase": "30:00",
       "event": "AFL",
-      "updated": "07:54 UTC"
+      "updated": "10:06 UTC"
     }
   ],
-  "updated": "07:54 UTC",
+  "updated": "10:06 UTC",
   "count": 1,
   "source": "live"
 }
