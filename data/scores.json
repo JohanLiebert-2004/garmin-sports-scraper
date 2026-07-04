@@ -2,26 +2,16 @@
   "matches": [
     {
       "sport": "AFL",
-      "home": "Hawthorn",
-      "away": "Melbourne",
-      "scoreHome": "21",
-      "scoreAway": "111",
-      "phase": "14:43",
+      "home": "Gold Coast SUN",
+      "away": "Collingwood",
+      "scoreHome": "47",
+      "scoreAway": "57",
+      "phase": "4:56",
       "event": "AFL",
-      "updated": "05:01 UTC"
-    },
-    {
-      "sport": "AFL",
-      "home": "GWS GIANTS",
-      "away": "Fremantle",
-      "scoreHome": "58",
-      "scoreAway": "45",
-      "phase": "30:43",
-      "event": "AFL",
-      "updated": "05:01 UTC"
+      "updated": "07:54 UTC"
     }
   ],
-  "updated": "05:01 UTC",
-  "count": 2,
+  "updated": "07:54 UTC",
+  "count": 1,
   "source": "live"
 }
