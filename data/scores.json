@@ -1,6 +1,27 @@
 {
-  "matches": [],
-  "updated": "04:31 UTC",
-  "count": 0,
-  "source": "no-live-matches"
+  "matches": [
+    {
+      "sport": "AFL",
+      "home": "Essendon",
+      "away": "St Kilda",
+      "scoreHome": "50",
+      "scoreAway": "117",
+      "phase": "0:00",
+      "event": "AFL",
+      "updated": "07:44 UTC"
+    },
+    {
+      "sport": "AFL",
+      "home": "Port Adelaide",
+      "away": "North Melbourn",
+      "scoreHome": "36",
+      "scoreAway": "17",
+      "phase": "28:56",
+      "event": "AFL",
+      "updated": "07:44 UTC"
+    }
+  ],
+  "updated": "07:44 UTC",
+  "count": 2,
+  "source": "live"
 }
