@@ -1,6 +1,17 @@
 {
-  "matches": [],
-  "updated": "08:49 UTC",
-  "count": 0,
-  "source": "no-live-matches"
+  "matches": [
+    {
+      "sport": "AFL",
+      "home": "Fremantle",
+      "away": "Sydney Swans",
+      "scoreHome": "17",
+      "scoreAway": "39",
+      "phase": "2:50",
+      "event": "AFL",
+      "updated": "11:37 UTC"
+    }
+  ],
+  "updated": "11:37 UTC",
+  "count": 1,
+  "source": "live"
 }
