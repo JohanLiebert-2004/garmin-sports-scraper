@@ -1,17 +1,6 @@
 {
-  "matches": [
-    {
-      "sport": "AFL",
-      "home": "Collingwood",
-      "away": "North Melbourn",
-      "scoreHome": "48",
-      "scoreAway": "42",
-      "phase": "4:56",
-      "event": "AFL",
-      "updated": "11:14 UTC"
-    }
-  ],
-  "updated": "11:14 UTC",
-  "count": 1,
-  "source": "live"
+  "matches": [],
+  "updated": "13:20 UTC",
+  "count": 0,
+  "source": "no-live-matches"
 }
