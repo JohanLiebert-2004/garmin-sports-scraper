@@ -1,7 +1,13 @@
 #!/usr/bin/env python3
-import requests, json, re
+import json
+import re
 from datetime import datetime, timezone
+from pathlib import Path
+import requests
 from bs4 import BeautifulSoup
+
+ROOT = Path(__file__).parent
+SCORES_FILE = ROOT / 'data' / 'scores.json'
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
@@ -12,6 +18,9 @@ HEADERS = {
 def now_utc():
     return datetime.now(timezone.utc).strftime("%H:%M UTC")
 
+def today_utc():
+    return datetime.now(timezone.utc).strftime("%Y%m%d")
+
 def trim(v, n):
     return str(v)[:n] if v else ""
 
@@ -19,6 +28,7 @@ def espn_sport(sport_label, url, event_label=""):
     out = []
     try:
         r = requests.get(url, headers=HEADERS, timeout=15)
+        r.raise_for_status()
         data = r.json()
         events = data.get("events", [])
         print(f"  [{sport_label}] {len(events)} events from ESPN")
@@ -85,7 +95,7 @@ def tennis():
 
         # Try direct livescore API
         r2 = requests.get(
-            "https://prod-cdn-public-api.livescore.com/v1/api/app/date/tennis/20260524/0?MD=1",
+            f"https://prod-cdn-public-api.livescore.com/v1/api/app/date/tennis/{today_utc()}/0?MD=1",
             headers={**HEADERS,
                      "origin": "https://www.livescore.com",
                      "referer": "https://www.livescore.com/"},
@@ -125,7 +135,7 @@ def cricket():
     out = []
     try:
         r = requests.get(
-            "https://prod-cdn-public-api.livescore.com/v1/api/app/date/cricket/20260524/0?MD=1",
+            f"https://prod-cdn-public-api.livescore.com/v1/api/app/date/cricket/{today_utc()}/0?MD=1",
             headers={**HEADERS,
                      "origin": "https://www.livescore.com",
                      "referer": "https://www.livescore.com/"},
@@ -171,7 +181,8 @@ def main():
         "count": len(matches),
         "source": "live" if matches else "no-live-matches"
     }
-    with open("data/scores.json", "w") as f:
+    SCORES_FILE.parent.mkdir(parents=True, exist_ok=True)
+    with SCORES_FILE.open("w", encoding="utf-8") as f:
         json.dump(output, f, indent=2)
     print(f"Written to data/scores.json")
 

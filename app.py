@@ -1,15 +1,18 @@
-import os, json, time
+import json
+import os
 from datetime import datetime, timezone
+from pathlib import Path
 from flask import Flask, jsonify
 
 app = Flask(__name__)
+SCORES_FILE = Path(__file__).parent / 'data' / 'scores.json'
 
 def now_utc():
     return datetime.now(timezone.utc).strftime("%H:%M UTC")
 
 def read_scores():
     try:
-        with open("data/scores.json") as f:
+        with SCORES_FILE.open(encoding="utf-8") as f:
             return json.load(f)
     except Exception as ex:
         print(f"Read error: {ex}")
