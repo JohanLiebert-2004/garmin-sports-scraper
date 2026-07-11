@@ -1,6 +1,17 @@
 {
-  "matches": [],
-  "updated": "01:07 UTC",
-  "count": 0,
-  "source": "no-live-matches"
+  "matches": [
+    {
+      "sport": "AFL",
+      "home": "St Kilda",
+      "away": "Port Adelaide",
+      "scoreHome": "26",
+      "scoreAway": "8",
+      "phase": "23:51",
+      "event": "AFL",
+      "updated": "03:40 UTC"
+    }
+  ],
+  "updated": "03:40 UTC",
+  "count": 1,
+  "source": "live"
 }
