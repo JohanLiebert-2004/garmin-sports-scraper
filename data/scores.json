@@ -2,16 +2,16 @@
   "matches": [
     {
       "sport": "AFL",
-      "home": "GWS GIANTS",
-      "away": "Geelong Cats",
-      "scoreHome": "40",
-      "scoreAway": "67",
-      "phase": "0:07",
+      "home": "Carlton",
+      "away": "Hawthorn",
+      "scoreHome": "6",
+      "scoreAway": "12",
+      "phase": "21:44",
       "event": "AFL",
-      "updated": "08:24 UTC"
+      "updated": "09:57 UTC"
     }
   ],
-  "updated": "08:24 UTC",
+  "updated": "09:57 UTC",
   "count": 1,
   "source": "live"
 }
