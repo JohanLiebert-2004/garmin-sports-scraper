@@ -1,27 +1,6 @@
 {
-  "matches": [
-    {
-      "sport": "AFL",
-      "home": "Carlton",
-      "away": "Hawthorn",
-      "scoreHome": "33",
-      "scoreAway": "102",
-      "phase": "24:57",
-      "event": "AFL",
-      "updated": "12:04 UTC"
-    },
-    {
-      "sport": "AFL",
-      "home": "Adelaide Crows",
-      "away": "Gold Coast SUN",
-      "scoreHome": "71",
-      "scoreAway": "30",
-      "phase": "22:46",
-      "event": "AFL",
-      "updated": "12:04 UTC"
-    }
-  ],
-  "updated": "12:04 UTC",
-  "count": 2,
-  "source": "live"
+  "matches": [],
+  "updated": "13:48 UTC",
+  "count": 0,
+  "source": "no-live-matches"
 }
