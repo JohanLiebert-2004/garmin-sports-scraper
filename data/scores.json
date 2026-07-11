@@ -2,16 +2,16 @@
   "matches": [
     {
       "sport": "AFL",
-      "home": "St Kilda",
-      "away": "Port Adelaide",
-      "scoreHome": "61",
+      "home": "GWS GIANTS",
+      "away": "Geelong Cats",
+      "scoreHome": "13",
       "scoreAway": "25",
-      "phase": "33:10",
+      "phase": "18:29",
       "event": "AFL",
-      "updated": "04:25 UTC"
+      "updated": "06:35 UTC"
     }
   ],
-  "updated": "04:25 UTC",
+  "updated": "06:35 UTC",
   "count": 1,
   "source": "live"
 }
