@@ -2,16 +2,26 @@
   "matches": [
     {
       "sport": "AFL",
-      "home": "Western Bulldo",
-      "away": "West Coast Eag",
-      "scoreHome": "37",
-      "scoreAway": "44",
-      "phase": "29:41",
+      "home": "Melbourne",
+      "away": "Richmond",
+      "scoreHome": "77",
+      "scoreAway": "39",
+      "phase": "26:28",
       "event": "AFL",
-      "updated": "04:33 UTC"
+      "updated": "07:11 UTC"
+    },
+    {
+      "sport": "AFL",
+      "home": "Brisbane Lions",
+      "away": "Essendon",
+      "scoreHome": "36",
+      "scoreAway": "3",
+      "phase": "30:18",
+      "event": "AFL",
+      "updated": "07:11 UTC"
     }
   ],
-  "updated": "04:33 UTC",
-  "count": 1,
+  "updated": "07:11 UTC",
+  "count": 2,
   "source": "live"
 }
