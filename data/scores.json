@@ -2,26 +2,16 @@
   "matches": [
     {
       "sport": "AFL",
-      "home": "Melbourne",
-      "away": "Richmond",
-      "scoreHome": "77",
-      "scoreAway": "39",
-      "phase": "26:28",
-      "event": "AFL",
-      "updated": "07:11 UTC"
-    },
-    {
-      "sport": "AFL",
       "home": "Brisbane Lions",
       "away": "Essendon",
-      "scoreHome": "36",
-      "scoreAway": "3",
-      "phase": "30:18",
+      "scoreHome": "142",
+      "scoreAway": "59",
+      "phase": "30:14",
       "event": "AFL",
-      "updated": "07:11 UTC"
+      "updated": "09:16 UTC"
     }
   ],
-  "updated": "07:11 UTC",
-  "count": 2,
+  "updated": "09:16 UTC",
+  "count": 1,
   "source": "live"
 }
