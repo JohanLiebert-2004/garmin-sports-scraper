@@ -1,6 +1,17 @@
 {
-  "matches": [],
-  "updated": "01:03 UTC",
-  "count": 0,
-  "source": "no-live-matches"
+  "matches": [
+    {
+      "sport": "AFL",
+      "home": "Western Bulldo",
+      "away": "West Coast Eag",
+      "scoreHome": "37",
+      "scoreAway": "44",
+      "phase": "29:41",
+      "event": "AFL",
+      "updated": "04:33 UTC"
+    }
+  ],
+  "updated": "04:33 UTC",
+  "count": 1,
+  "source": "live"
 }
