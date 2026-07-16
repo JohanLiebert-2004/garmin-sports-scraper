@@ -1,17 +1,6 @@
 {
-  "matches": [
-    {
-      "sport": "AFL",
-      "home": "Geelong Cats",
-      "away": "St Kilda",
-      "scoreHome": "102",
-      "scoreAway": "55",
-      "phase": "20:48",
-      "event": "AFL",
-      "updated": "12:04 UTC"
-    }
-  ],
-  "updated": "12:04 UTC",
-  "count": 1,
-  "source": "live"
+  "matches": [],
+  "updated": "14:16 UTC",
+  "count": 0,
+  "source": "no-live-matches"
 }
