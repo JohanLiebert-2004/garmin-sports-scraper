@@ -1,6 +1,17 @@
 {
-  "matches": [],
-  "updated": "08:38 UTC",
-  "count": 0,
-  "source": "no-live-matches"
+  "matches": [
+    {
+      "sport": "AFL",
+      "home": "Sydney Swans",
+      "away": "Adelaide Crows",
+      "scoreHome": "26",
+      "scoreAway": "41",
+      "phase": "3:54",
+      "event": "AFL",
+      "updated": "10:25 UTC"
+    }
+  ],
+  "updated": "10:25 UTC",
+  "count": 1,
+  "source": "live"
 }
