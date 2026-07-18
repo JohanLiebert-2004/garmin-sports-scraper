@@ -1,17 +1,6 @@
 {
-  "matches": [
-    {
-      "sport": "AFL",
-      "home": "West Coast Eag",
-      "away": "Brisbane Lions",
-      "scoreHome": "62",
-      "scoreAway": "79",
-      "phase": "12:34",
-      "event": "AFL",
-      "updated": "12:33 UTC"
-    }
-  ],
-  "updated": "12:33 UTC",
-  "count": 1,
-  "source": "live"
+  "matches": [],
+  "updated": "14:03 UTC",
+  "count": 0,
+  "source": "no-live-matches"
 }
