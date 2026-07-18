@@ -1,6 +1,17 @@
 {
-  "matches": [],
-  "updated": "00:14 UTC",
-  "count": 0,
-  "source": "no-live-matches"
+  "matches": [
+    {
+      "sport": "AFL",
+      "home": "Port Adelaide",
+      "away": "Fremantle",
+      "scoreHome": "14",
+      "scoreAway": "19",
+      "phase": "19:38",
+      "event": "AFL",
+      "updated": "03:36 UTC"
+    }
+  ],
+  "updated": "03:36 UTC",
+  "count": 1,
+  "source": "live"
 }
