@@ -1,6 +1,27 @@
 {
-  "matches": [],
-  "updated": "09:06 UTC",
-  "count": 0,
-  "source": "no-live-matches"
+  "matches": [
+    {
+      "sport": "AFL",
+      "home": "Collingwood",
+      "away": "Carlton",
+      "scoreHome": "38",
+      "scoreAway": "29",
+      "phase": "24:53",
+      "event": "AFL",
+      "updated": "10:38 UTC"
+    },
+    {
+      "sport": "AFL",
+      "home": "West Coast Eag",
+      "away": "Brisbane Lions",
+      "scoreHome": "32",
+      "scoreAway": "16",
+      "phase": "26:33",
+      "event": "AFL",
+      "updated": "10:38 UTC"
+    }
+  ],
+  "updated": "10:38 UTC",
+  "count": 2,
+  "source": "live"
 }
