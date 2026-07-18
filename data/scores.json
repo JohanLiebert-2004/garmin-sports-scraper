@@ -2,16 +2,16 @@
   "matches": [
     {
       "sport": "AFL",
-      "home": "Port Adelaide",
-      "away": "Fremantle",
-      "scoreHome": "75",
-      "scoreAway": "103",
-      "phase": "30:07",
+      "home": "North Melbourn",
+      "away": "Melbourne",
+      "scoreHome": "44",
+      "scoreAway": "34",
+      "phase": "25:43",
       "event": "AFL",
-      "updated": "05:50 UTC"
+      "updated": "07:21 UTC"
     }
   ],
-  "updated": "05:50 UTC",
+  "updated": "07:21 UTC",
   "count": 1,
   "source": "live"
 }
