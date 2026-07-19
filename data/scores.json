@@ -2,16 +2,16 @@
   "matches": [
     {
       "sport": "AFL",
-      "home": "Gold Coast SUN",
-      "away": "Western Bulldo",
-      "scoreHome": "36",
-      "scoreAway": "36",
-      "phase": "28:34",
+      "home": "Essendon",
+      "away": "GWS GIANTS",
+      "scoreHome": "48",
+      "scoreAway": "42",
+      "phase": "33:35",
       "event": "AFL",
-      "updated": "06:19 UTC"
+      "updated": "08:38 UTC"
     }
   ],
-  "updated": "06:19 UTC",
+  "updated": "08:38 UTC",
   "count": 1,
   "source": "live"
 }
