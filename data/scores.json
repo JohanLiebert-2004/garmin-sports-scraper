@@ -2,16 +2,16 @@
   "matches": [
     {
       "sport": "AFL",
-      "home": "Richmond",
-      "away": "Hawthorn",
-      "scoreHome": "5",
-      "scoreAway": "34",
-      "phase": "1:42",
+      "home": "Gold Coast SUN",
+      "away": "Western Bulldo",
+      "scoreHome": "36",
+      "scoreAway": "36",
+      "phase": "28:34",
       "event": "AFL",
-      "updated": "03:50 UTC"
+      "updated": "06:19 UTC"
     }
   ],
-  "updated": "03:50 UTC",
+  "updated": "06:19 UTC",
   "count": 1,
   "source": "live"
 }
