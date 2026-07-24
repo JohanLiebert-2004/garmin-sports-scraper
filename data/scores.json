@@ -1,27 +1,6 @@
 {
-  "matches": [
-    {
-      "sport": "AFL",
-      "home": "Melbourne",
-      "away": "Geelong Cats",
-      "scoreHome": "50",
-      "scoreAway": "66",
-      "phase": "10:09",
-      "event": "AFL",
-      "updated": "11:20 UTC"
-    },
-    {
-      "sport": "AFL",
-      "home": "Fremantle",
-      "away": "West Coast Eag",
-      "scoreHome": "40",
-      "scoreAway": "32",
-      "phase": "29:29",
-      "event": "AFL",
-      "updated": "11:20 UTC"
-    }
-  ],
-  "updated": "11:20 UTC",
-  "count": 2,
-  "source": "live"
+  "matches": [],
+  "updated": "12:50 UTC",
+  "count": 0,
+  "source": "no-live-matches"
 }
