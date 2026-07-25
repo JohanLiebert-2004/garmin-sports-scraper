@@ -2,16 +2,26 @@
   "matches": [
     {
       "sport": "AFL",
-      "home": "Carlton",
-      "away": "Gold Coast SUN",
-      "scoreHome": "49",
-      "scoreAway": "46",
-      "phase": "30:14",
+      "home": "Hawthorn",
+      "away": "Essendon",
+      "scoreHome": "23",
+      "scoreAway": "15",
+      "phase": "2:38",
       "event": "AFL",
-      "updated": "04:30 UTC"
+      "updated": "06:57 UTC"
+    },
+    {
+      "sport": "AFL",
+      "home": "GWS GIANTS",
+      "away": "Sydney Swans",
+      "scoreHome": "7",
+      "scoreAway": "32",
+      "phase": "20:25",
+      "event": "AFL",
+      "updated": "06:57 UTC"
     }
   ],
-  "updated": "04:30 UTC",
-  "count": 1,
+  "updated": "06:57 UTC",
+  "count": 2,
   "source": "live"
 }
