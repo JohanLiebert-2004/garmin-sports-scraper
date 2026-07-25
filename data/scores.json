@@ -2,16 +2,16 @@
   "matches": [
     {
       "sport": "AFL",
-      "home": "GWS GIANTS",
-      "away": "Sydney Swans",
-      "scoreHome": "70",
-      "scoreAway": "118",
-      "phase": "14:22",
+      "home": "Western Bulldo",
+      "away": "Richmond",
+      "scoreHome": "46",
+      "scoreAway": "15",
+      "phase": "25:29",
       "event": "AFL",
-      "updated": "09:02 UTC"
+      "updated": "10:41 UTC"
     }
   ],
-  "updated": "09:02 UTC",
+  "updated": "10:41 UTC",
   "count": 1,
   "source": "live"
 }
