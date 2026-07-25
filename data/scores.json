@@ -2,26 +2,16 @@
   "matches": [
     {
       "sport": "AFL",
-      "home": "Hawthorn",
-      "away": "Essendon",
-      "scoreHome": "23",
-      "scoreAway": "15",
-      "phase": "2:38",
-      "event": "AFL",
-      "updated": "06:57 UTC"
-    },
-    {
-      "sport": "AFL",
       "home": "GWS GIANTS",
       "away": "Sydney Swans",
-      "scoreHome": "7",
-      "scoreAway": "32",
-      "phase": "20:25",
+      "scoreHome": "70",
+      "scoreAway": "118",
+      "phase": "14:22",
       "event": "AFL",
-      "updated": "06:57 UTC"
+      "updated": "09:02 UTC"
     }
   ],
-  "updated": "06:57 UTC",
-  "count": 2,
+  "updated": "09:02 UTC",
+  "count": 1,
   "source": "live"
 }
