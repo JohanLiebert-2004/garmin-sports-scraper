@@ -2,16 +2,16 @@
   "matches": [
     {
       "sport": "AFL",
-      "home": "Brisbane Lions",
-      "away": "Port Adelaide",
-      "scoreHome": "38",
-      "scoreAway": "29",
-      "phase": "2:06",
+      "home": "North Melbourn",
+      "away": "St Kilda",
+      "scoreHome": "54",
+      "scoreAway": "67",
+      "phase": "0:08",
       "event": "AFL",
-      "updated": "04:42 UTC"
+      "updated": "07:21 UTC"
     }
   ],
-  "updated": "04:42 UTC",
+  "updated": "07:21 UTC",
   "count": 1,
   "source": "live"
 }
