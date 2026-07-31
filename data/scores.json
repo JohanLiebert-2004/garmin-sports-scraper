@@ -1,6 +1,17 @@
 {
-  "matches": [],
-  "updated": "10:09 UTC",
-  "count": 0,
-  "source": "no-live-matches"
+  "matches": [
+    {
+      "sport": "AFL",
+      "home": "Fremantle",
+      "away": "Western Bulldo",
+      "scoreHome": "46",
+      "scoreAway": "33",
+      "phase": "4:38",
+      "event": "AFL",
+      "updated": "12:15 UTC"
+    }
+  ],
+  "updated": "12:15 UTC",
+  "count": 1,
+  "source": "live"
 }
