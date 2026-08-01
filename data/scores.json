@@ -1,6 +1,17 @@
 {
-  "matches": [],
-  "updated": "07:16 UTC",
-  "count": 0,
-  "source": "no-live-matches"
+  "matches": [
+    {
+      "sport": "AFL",
+      "home": "Port Adelaide",
+      "away": "GWS GIANTS",
+      "scoreHome": "21",
+      "scoreAway": "28",
+      "phase": "13:36",
+      "event": "AFL",
+      "updated": "09:25 UTC"
+    }
+  ],
+  "updated": "09:25 UTC",
+  "count": 1,
+  "source": "live"
 }
