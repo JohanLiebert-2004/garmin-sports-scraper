@@ -4,14 +4,24 @@
       "sport": "AFL",
       "home": "Port Adelaide",
       "away": "GWS GIANTS",
-      "scoreHome": "21",
-      "scoreAway": "28",
-      "phase": "13:36",
+      "scoreHome": "59",
+      "scoreAway": "73",
+      "phase": "15:43",
       "event": "AFL",
-      "updated": "09:25 UTC"
+      "updated": "10:57 UTC"
+    },
+    {
+      "sport": "AFL",
+      "home": "Carlton",
+      "away": "Brisbane Lions",
+      "scoreHome": "79",
+      "scoreAway": "61",
+      "phase": "32:54",
+      "event": "AFL",
+      "updated": "10:57 UTC"
     }
   ],
-  "updated": "09:25 UTC",
-  "count": 1,
+  "updated": "10:57 UTC",
+  "count": 2,
   "source": "live"
 }
