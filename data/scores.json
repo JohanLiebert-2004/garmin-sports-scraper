@@ -1,17 +1,6 @@
 {
-  "matches": [
-    {
-      "sport": "AFL",
-      "home": "Carlton",
-      "away": "Brisbane Lions",
-      "scoreHome": "123",
-      "scoreAway": "76",
-      "phase": "9:24",
-      "event": "AFL",
-      "updated": "12:04 UTC"
-    }
-  ],
-  "updated": "12:04 UTC",
-  "count": 1,
-  "source": "live"
+  "matches": [],
+  "updated": "13:47 UTC",
+  "count": 0,
+  "source": "no-live-matches"
 }
