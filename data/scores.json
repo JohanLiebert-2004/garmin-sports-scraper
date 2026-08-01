@@ -1,27 +1,6 @@
 {
-  "matches": [
-    {
-      "sport": "AFL",
-      "home": "St Kilda",
-      "away": "Sydney Swans",
-      "scoreHome": "61",
-      "scoreAway": "50",
-      "phase": "8:39",
-      "event": "AFL",
-      "updated": "04:42 UTC"
-    },
-    {
-      "sport": "AFL",
-      "home": "Hawthorn",
-      "away": "North Melbourn",
-      "scoreHome": "45",
-      "scoreAway": "46",
-      "phase": "30:14",
-      "event": "AFL",
-      "updated": "04:42 UTC"
-    }
-  ],
-  "updated": "04:42 UTC",
-  "count": 2,
-  "source": "live"
+  "matches": [],
+  "updated": "07:16 UTC",
+  "count": 0,
+  "source": "no-live-matches"
 }
