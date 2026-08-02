@@ -1,27 +1,6 @@
 {
-  "matches": [
-    {
-      "sport": "AFL",
-      "home": "Gold Coast SUN",
-      "away": "Melbourne",
-      "scoreHome": "86",
-      "scoreAway": "81",
-      "phase": "31:35",
-      "event": "AFL",
-      "updated": "07:19 UTC"
-    },
-    {
-      "sport": "AFL",
-      "home": "Essendon",
-      "away": "Adelaide Crows",
-      "scoreHome": "19",
-      "scoreAway": "44",
-      "phase": "34:36",
-      "event": "AFL",
-      "updated": "07:19 UTC"
-    }
-  ],
-  "updated": "07:19 UTC",
-  "count": 2,
-  "source": "live"
+  "matches": [],
+  "updated": "09:26 UTC",
+  "count": 0,
+  "source": "no-live-matches"
 }
