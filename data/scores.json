@@ -1,47 +1,6 @@
 {
-  "matches": [
-    {
-      "sport": "Football",
-      "home": "Real Madrid",
-      "away": "Villarreal",
-      "scoreHome": "1",
-      "scoreAway": "0",
-      "phase": "81'",
-      "event": "La Liga",
-      "updated": "20:39 UTC"
-    },
-    {
-      "sport": "Football",
-      "home": "Monaco",
-      "away": "Toulouse",
-      "scoreHome": "2",
-      "scoreAway": "2",
-      "phase": "90'+3'",
-      "event": "Ligue 1",
-      "updated": "20:39 UTC"
-    },
-    {
-      "sport": "Football",
-      "home": "Brest",
-      "away": "Angers",
-      "scoreHome": "5",
-      "scoreAway": "1",
-      "phase": "90'+4'",
-      "event": "Ligue 1",
-      "updated": "20:39 UTC"
-    },
-    {
-      "sport": "Football",
-      "home": "PSG",
-      "away": "Le Mans",
-      "scoreHome": "3",
-      "scoreAway": "1",
-      "phase": "90'+3'",
-      "event": "Ligue 1",
-      "updated": "20:39 UTC"
-    }
-  ],
-  "updated": "20:39 UTC",
-  "count": 4,
-  "source": "live"
+  "matches": [],
+  "updated": "23:50 UTC",
+  "count": 0,
+  "source": "no-live-matches"
 }
