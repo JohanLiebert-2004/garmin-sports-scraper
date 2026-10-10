@@ -1,6 +1,27 @@
 {
-  "matches": [],
-  "updated": "06:24 UTC",
-  "count": 0,
-  "source": "no-live-matches"
+  "matches": [
+    {
+      "sport": "Football",
+      "home": "Arsenal",
+      "away": "Leeds",
+      "scoreHome": "0",
+      "scoreAway": "1",
+      "phase": "62'",
+      "event": "EPL",
+      "updated": "12:51 UTC"
+    },
+    {
+      "sport": "Football",
+      "home": "Rayo",
+      "away": "Athletic",
+      "scoreHome": "0",
+      "scoreAway": "0",
+      "phase": "30'",
+      "event": "La Liga",
+      "updated": "12:51 UTC"
+    }
+  ],
+  "updated": "12:51 UTC",
+  "count": 2,
+  "source": "live"
 }
