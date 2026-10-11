@@ -1,6 +1,47 @@
 {
-  "matches": [],
-  "updated": "09:02 UTC",
-  "count": 0,
-  "source": "no-live-matches"
+  "matches": [
+    {
+      "sport": "Football",
+      "home": "Liverpool",
+      "away": "Man City",
+      "scoreHome": "0",
+      "scoreAway": "0",
+      "phase": "4'",
+      "event": "EPL",
+      "updated": "15:35 UTC"
+    },
+    {
+      "sport": "Football",
+      "home": "Real Sociedad",
+      "away": "Deportivo",
+      "scoreHome": "3",
+      "scoreAway": "0",
+      "phase": "59'",
+      "event": "La Liga",
+      "updated": "15:35 UTC"
+    },
+    {
+      "sport": "Football",
+      "home": "Freiburg",
+      "away": "Schalke",
+      "scoreHome": "0",
+      "scoreAway": "0",
+      "phase": "5'",
+      "event": "Bundesliga",
+      "updated": "15:35 UTC"
+    },
+    {
+      "sport": "Football",
+      "home": "Rennes",
+      "away": "Auxerre",
+      "scoreHome": "1",
+      "scoreAway": "0",
+      "phase": "20'",
+      "event": "Ligue 1",
+      "updated": "15:35 UTC"
+    }
+  ],
+  "updated": "15:35 UTC",
+  "count": 4,
+  "source": "live"
 }
