@@ -1,37 +1,6 @@
 {
-  "matches": [
-    {
-      "sport": "Football",
-      "home": "Racing",
-      "away": "Valencia",
-      "scoreHome": "1",
-      "scoreAway": "1",
-      "phase": "42'",
-      "event": "La Liga",
-      "updated": "19:41 UTC"
-    },
-    {
-      "sport": "Football",
-      "home": "Cagliari",
-      "away": "Juventus",
-      "scoreHome": "1",
-      "scoreAway": "0",
-      "phase": "45'+2'",
-      "event": "Serie A",
-      "updated": "19:41 UTC"
-    },
-    {
-      "sport": "Football",
-      "home": "Troyes",
-      "away": "Marseille",
-      "scoreHome": "0",
-      "scoreAway": "0",
-      "phase": "45'",
-      "event": "Ligue 1",
-      "updated": "19:41 UTC"
-    }
-  ],
-  "updated": "19:41 UTC",
-  "count": 3,
-  "source": "live"
+  "matches": [],
+  "updated": "23:11 UTC",
+  "count": 0,
+  "source": "no-live-matches"
 }
