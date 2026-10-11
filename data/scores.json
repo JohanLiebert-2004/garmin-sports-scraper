@@ -2,46 +2,36 @@
   "matches": [
     {
       "sport": "Football",
-      "home": "Liverpool",
-      "away": "Man City",
-      "scoreHome": "0",
-      "scoreAway": "0",
-      "phase": "4'",
-      "event": "EPL",
-      "updated": "15:35 UTC"
-    },
-    {
-      "sport": "Football",
-      "home": "Real Sociedad",
-      "away": "Deportivo",
-      "scoreHome": "3",
-      "scoreAway": "0",
-      "phase": "59'",
+      "home": "Racing",
+      "away": "Valencia",
+      "scoreHome": "1",
+      "scoreAway": "1",
+      "phase": "42'",
       "event": "La Liga",
-      "updated": "15:35 UTC"
+      "updated": "19:41 UTC"
     },
     {
       "sport": "Football",
-      "home": "Freiburg",
-      "away": "Schalke",
-      "scoreHome": "0",
-      "scoreAway": "0",
-      "phase": "5'",
-      "event": "Bundesliga",
-      "updated": "15:35 UTC"
-    },
-    {
-      "sport": "Football",
-      "home": "Rennes",
-      "away": "Auxerre",
+      "home": "Cagliari",
+      "away": "Juventus",
       "scoreHome": "1",
       "scoreAway": "0",
-      "phase": "20'",
+      "phase": "45'+2'",
+      "event": "Serie A",
+      "updated": "19:41 UTC"
+    },
+    {
+      "sport": "Football",
+      "home": "Troyes",
+      "away": "Marseille",
+      "scoreHome": "0",
+      "scoreAway": "0",
+      "phase": "45'",
       "event": "Ligue 1",
-      "updated": "15:35 UTC"
+      "updated": "19:41 UTC"
     }
   ],
-  "updated": "15:35 UTC",
-  "count": 4,
+  "updated": "19:41 UTC",
+  "count": 3,
   "source": "live"
 }
