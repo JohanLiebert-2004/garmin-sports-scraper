@@ -1,6 +1,37 @@
 {
-  "matches": [],
-  "updated": "09:33 UTC",
-  "count": 0,
-  "source": "no-live-matches"
+  "matches": [
+    {
+      "sport": "Football",
+      "home": "Coventry",
+      "away": "Newcastle",
+      "scoreHome": "1",
+      "scoreAway": "0",
+      "phase": "17'",
+      "event": "EPL",
+      "updated": "19:16 UTC"
+    },
+    {
+      "sport": "Football",
+      "home": "Levante",
+      "away": "Sevilla",
+      "scoreHome": "0",
+      "scoreAway": "1",
+      "phase": "15'",
+      "event": "La Liga",
+      "updated": "19:16 UTC"
+    },
+    {
+      "sport": "Football",
+      "home": "Torino",
+      "away": "Udinese",
+      "scoreHome": "0",
+      "scoreAway": "0",
+      "phase": "31'",
+      "event": "Serie A",
+      "updated": "19:16 UTC"
+    }
+  ],
+  "updated": "19:16 UTC",
+  "count": 3,
+  "source": "live"
 }
