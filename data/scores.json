@@ -1,47 +1,6 @@
 {
-  "matches": [
-    {
-      "sport": "Football",
-      "home": "Deportivo",
-      "away": "Levante",
-      "scoreHome": "0",
-      "scoreAway": "0",
-      "phase": "45'+2'",
-      "event": "La Liga",
-      "updated": "20:02 UTC"
-    },
-    {
-      "sport": "Football",
-      "home": "Frankfurt",
-      "away": "Cologne",
-      "scoreHome": "0",
-      "scoreAway": "0",
-      "phase": "71'",
-      "event": "Bundesliga",
-      "updated": "20:02 UTC"
-    },
-    {
-      "sport": "Football",
-      "home": "Frosinone",
-      "away": "Sassuolo",
-      "scoreHome": "3",
-      "scoreAway": "2",
-      "phase": "57'",
-      "event": "Serie A",
-      "updated": "20:02 UTC"
-    },
-    {
-      "sport": "Football",
-      "home": "Le Mans",
-      "away": "Toulouse",
-      "scoreHome": "0",
-      "scoreAway": "2",
-      "phase": "60'",
-      "event": "Ligue 1",
-      "updated": "20:02 UTC"
-    }
-  ],
-  "updated": "20:02 UTC",
-  "count": 4,
-  "source": "live"
+  "matches": [],
+  "updated": "22:45 UTC",
+  "count": 0,
+  "source": "no-live-matches"
 }
