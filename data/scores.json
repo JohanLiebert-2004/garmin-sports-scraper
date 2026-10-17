@@ -1,27 +1,6 @@
 {
-  "matches": [
-    {
-      "sport": "Football",
-      "home": "Bologna",
-      "away": "Inter Milan",
-      "scoreHome": "1",
-      "scoreAway": "0",
-      "phase": "17'",
-      "event": "Serie A",
-      "updated": "16:18 UTC"
-    },
-    {
-      "sport": "Football",
-      "home": "Strasbourg",
-      "away": "PSG",
-      "scoreHome": "1",
-      "scoreAway": "0",
-      "phase": "46'",
-      "event": "Ligue 1",
-      "updated": "16:18 UTC"
-    }
-  ],
-  "updated": "16:18 UTC",
-  "count": 2,
-  "source": "live"
+  "matches": [],
+  "updated": "18:35 UTC",
+  "count": 0,
+  "source": "no-live-matches"
 }
