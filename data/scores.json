@@ -1,27 +1,6 @@
 {
-  "matches": [
-    {
-      "sport": "Football",
-      "home": "Juventus",
-      "away": "Lazio",
-      "scoreHome": "0",
-      "scoreAway": "0",
-      "phase": "15'",
-      "event": "Serie A",
-      "updated": "19:00 UTC"
-    },
-    {
-      "sport": "Football",
-      "home": "Lyon",
-      "away": "Nice",
-      "scoreHome": "0",
-      "scoreAway": "0",
-      "phase": "15'",
-      "event": "Ligue 1",
-      "updated": "19:00 UTC"
-    }
-  ],
-  "updated": "19:00 UTC",
-  "count": 2,
-  "source": "live"
+  "matches": [],
+  "updated": "21:24 UTC",
+  "count": 0,
+  "source": "no-live-matches"
 }
