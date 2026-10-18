@@ -2,56 +2,56 @@
   "matches": [
     {
       "sport": "Football",
-      "home": "Bournemouth",
-      "away": "Sunderland",
-      "scoreHome": "1",
-      "scoreAway": "0",
-      "phase": "30'",
-      "event": "EPL",
-      "updated": "13:30 UTC"
-    },
-    {
-      "sport": "Football",
-      "home": "Brighton",
-      "away": "C Palace",
-      "scoreHome": "3",
-      "scoreAway": "0",
-      "phase": "30'",
-      "event": "EPL",
-      "updated": "13:30 UTC"
-    },
-    {
-      "sport": "Football",
-      "home": "Leeds",
-      "away": "Man United",
+      "home": "Nottm Forest",
+      "away": "Arsenal",
       "scoreHome": "0",
       "scoreAway": "0",
-      "phase": "30'",
+      "phase": "57'",
       "event": "EPL",
-      "updated": "13:30 UTC"
+      "updated": "16:47 UTC"
     },
     {
       "sport": "Football",
-      "home": "Osasuna",
-      "away": "Racing",
-      "scoreHome": "1",
-      "scoreAway": "0",
-      "phase": "70'",
+      "home": "M\u00e1laga",
+      "away": "Real Sociedad",
+      "scoreHome": "0",
+      "scoreAway": "1",
+      "phase": "17'",
       "event": "La Liga",
-      "updated": "13:30 UTC"
+      "updated": "16:47 UTC"
     },
     {
       "sport": "Football",
-      "home": "Fiorentina",
-      "away": "Como",
-      "scoreHome": "0",
+      "home": "Gladbach",
+      "away": "Hoffenheim",
+      "scoreHome": "1",
+      "scoreAway": "2",
+      "phase": "57'",
+      "event": "Bundesliga",
+      "updated": "16:47 UTC"
+    },
+    {
+      "sport": "Football",
+      "home": "Milan",
+      "away": "Atalanta",
+      "scoreHome": "2",
       "scoreAway": "0",
-      "phase": "28'",
+      "phase": "45'+2'",
       "event": "Serie A",
-      "updated": "13:30 UTC"
+      "updated": "16:47 UTC"
+    },
+    {
+      "sport": "Football",
+      "home": "Le Havre AC",
+      "away": "Auxerre",
+      "scoreHome": "1",
+      "scoreAway": "2",
+      "phase": "74'",
+      "event": "Ligue 1",
+      "updated": "16:47 UTC"
     }
   ],
-  "updated": "13:30 UTC",
+  "updated": "16:47 UTC",
   "count": 5,
   "source": "live"
 }
