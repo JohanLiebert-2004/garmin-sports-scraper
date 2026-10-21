@@ -2,26 +2,56 @@
   "matches": [
     {
       "sport": "Football",
-      "home": "Como",
-      "away": "Man United",
-      "scoreHome": "1",
-      "scoreAway": "0",
-      "phase": "44'",
+      "home": "Aston Villa",
+      "away": "Viking FK",
+      "scoreHome": "3",
+      "scoreAway": "1",
+      "phase": "90'",
       "event": "UCL",
-      "updated": "17:31 UTC"
+      "updated": "20:51 UTC"
     },
     {
       "sport": "Football",
-      "home": "Lille",
-      "away": "Galatasaray",
+      "home": "Bayern",
+      "away": "Arsenal",
       "scoreHome": "2",
       "scoreAway": "2",
-      "phase": "45'+1'",
+      "phase": "90'+1'",
       "event": "UCL",
-      "updated": "17:31 UTC"
+      "updated": "20:51 UTC"
+    },
+    {
+      "sport": "Football",
+      "home": "Club Brugge",
+      "away": "Lens",
+      "scoreHome": "3",
+      "scoreAway": "0",
+      "phase": "90'+1'",
+      "event": "UCL",
+      "updated": "20:51 UTC"
+    },
+    {
+      "sport": "Football",
+      "home": "Inter Milan",
+      "away": "Shakhtar",
+      "scoreHome": "1",
+      "scoreAway": "0",
+      "phase": "90'+1'",
+      "event": "UCL",
+      "updated": "20:51 UTC"
+    },
+    {
+      "sport": "Football",
+      "home": "Betis",
+      "away": "Feyenoord",
+      "scoreHome": "1",
+      "scoreAway": "0",
+      "phase": "90'+3'",
+      "event": "UCL",
+      "updated": "20:51 UTC"
     }
   ],
-  "updated": "17:31 UTC",
-  "count": 2,
+  "updated": "20:51 UTC",
+  "count": 5,
   "source": "live"
 }
