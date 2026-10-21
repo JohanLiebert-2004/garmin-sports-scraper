@@ -1,6 +1,27 @@
 {
-  "matches": [],
-  "updated": "12:25 UTC",
-  "count": 0,
-  "source": "no-live-matches"
+  "matches": [
+    {
+      "sport": "Football",
+      "home": "Como",
+      "away": "Man United",
+      "scoreHome": "1",
+      "scoreAway": "0",
+      "phase": "44'",
+      "event": "UCL",
+      "updated": "17:31 UTC"
+    },
+    {
+      "sport": "Football",
+      "home": "Lille",
+      "away": "Galatasaray",
+      "scoreHome": "2",
+      "scoreAway": "2",
+      "phase": "45'+1'",
+      "event": "UCL",
+      "updated": "17:31 UTC"
+    }
+  ],
+  "updated": "17:31 UTC",
+  "count": 2,
+  "source": "live"
 }
