@@ -1,17 +1,6 @@
 {
-  "matches": [
-    {
-      "sport": "Football",
-      "home": "Stuttgart",
-      "away": "Gladbach",
-      "scoreHome": "0",
-      "scoreAway": "0",
-      "phase": "2'",
-      "event": "Bundesliga",
-      "updated": "18:32 UTC"
-    }
-  ],
-  "updated": "18:32 UTC",
-  "count": 1,
-  "source": "live"
+  "matches": [],
+  "updated": "21:36 UTC",
+  "count": 0,
+  "source": "no-live-matches"
 }
