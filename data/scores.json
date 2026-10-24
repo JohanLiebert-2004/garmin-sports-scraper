@@ -1,6 +1,47 @@
 {
-  "matches": [],
-  "updated": "08:58 UTC",
-  "count": 0,
-  "source": "no-live-matches"
+  "matches": [
+    {
+      "sport": "Football",
+      "home": "Aston Villa",
+      "away": "Man City",
+      "scoreHome": "2",
+      "scoreAway": "1",
+      "phase": "86'",
+      "event": "EPL",
+      "updated": "13:13 UTC"
+    },
+    {
+      "sport": "Football",
+      "home": "Rayo",
+      "away": "Elche",
+      "scoreHome": "0",
+      "scoreAway": "2",
+      "phase": "47'",
+      "event": "La Liga",
+      "updated": "13:13 UTC"
+    },
+    {
+      "sport": "Football",
+      "home": "Cagliari",
+      "away": "Bologna",
+      "scoreHome": "0",
+      "scoreAway": "0",
+      "phase": "13'",
+      "event": "Serie A",
+      "updated": "13:13 UTC"
+    },
+    {
+      "sport": "Football",
+      "home": "Como",
+      "away": "Sassuolo",
+      "scoreHome": "0",
+      "scoreAway": "0",
+      "phase": "12'",
+      "event": "Serie A",
+      "updated": "13:13 UTC"
+    }
+  ],
+  "updated": "13:13 UTC",
+  "count": 4,
+  "source": "live"
 }
