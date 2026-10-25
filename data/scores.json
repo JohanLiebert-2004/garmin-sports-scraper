@@ -1,6 +1,17 @@
 {
-  "matches": [],
-  "updated": "06:48 UTC",
-  "count": 0,
-  "source": "no-live-matches"
+  "matches": [
+    {
+      "sport": "Football",
+      "home": "Inter Milan",
+      "away": "Fiorentina",
+      "scoreHome": "0",
+      "scoreAway": "0",
+      "phase": "34'",
+      "event": "Serie A",
+      "updated": "12:06 UTC"
+    }
+  ],
+  "updated": "12:06 UTC",
+  "count": 1,
+  "source": "live"
 }
