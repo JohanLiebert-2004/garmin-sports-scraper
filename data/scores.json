@@ -1,17 +1,6 @@
 {
-  "matches": [
-    {
-      "sport": "Football",
-      "home": "Barcelona",
-      "away": "Real Madrid",
-      "scoreHome": "1",
-      "scoreAway": "1",
-      "phase": "76'",
-      "event": "La Liga",
-      "updated": "21:39 UTC"
-    }
-  ],
-  "updated": "21:39 UTC",
-  "count": 1,
-  "source": "live"
+  "matches": [],
+  "updated": "23:32 UTC",
+  "count": 0,
+  "source": "no-live-matches"
 }
