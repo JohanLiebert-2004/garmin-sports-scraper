@@ -1,37 +1,6 @@
 {
-  "matches": [
-    {
-      "sport": "Football",
-      "home": "Elversberg",
-      "away": "Mainz",
-      "scoreHome": "1",
-      "scoreAway": "0",
-      "phase": "10'",
-      "event": "Bundesliga",
-      "updated": "19:40 UTC"
-    },
-    {
-      "sport": "Football",
-      "home": "Le Havre AC",
-      "away": "PSG",
-      "scoreHome": "1",
-      "scoreAway": "5",
-      "phase": "81'",
-      "event": "Ligue 1",
-      "updated": "19:40 UTC"
-    },
-    {
-      "sport": "Football",
-      "home": "Nice",
-      "away": "Rennes",
-      "scoreHome": "5",
-      "scoreAway": "2",
-      "phase": "80'",
-      "event": "Ligue 1",
-      "updated": "19:40 UTC"
-    }
-  ],
-  "updated": "19:40 UTC",
-  "count": 3,
-  "source": "live"
+  "matches": [],
+  "updated": "23:14 UTC",
+  "count": 0,
+  "source": "no-live-matches"
 }
