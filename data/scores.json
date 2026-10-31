@@ -1,6 +1,57 @@
 {
-  "matches": [],
-  "updated": "08:44 UTC",
-  "count": 0,
-  "source": "no-live-matches"
+  "matches": [
+    {
+      "sport": "Football",
+      "home": "Levante",
+      "away": "Atl\u00e9tico",
+      "scoreHome": "0",
+      "scoreAway": "2",
+      "phase": "89'",
+      "event": "La Liga",
+      "updated": "14:48 UTC"
+    },
+    {
+      "sport": "Football",
+      "home": "Leverkusen",
+      "away": "Stuttgart",
+      "scoreHome": "0",
+      "scoreAway": "1",
+      "phase": "18'",
+      "event": "Bundesliga",
+      "updated": "14:48 UTC"
+    },
+    {
+      "sport": "Football",
+      "home": "Gladbach",
+      "away": "Paderborn",
+      "scoreHome": "0",
+      "scoreAway": "0",
+      "phase": "19'",
+      "event": "Bundesliga",
+      "updated": "14:48 UTC"
+    },
+    {
+      "sport": "Football",
+      "home": "Augsburg",
+      "away": "Freiburg",
+      "scoreHome": "1",
+      "scoreAway": "0",
+      "phase": "19'",
+      "event": "Bundesliga",
+      "updated": "14:48 UTC"
+    },
+    {
+      "sport": "Football",
+      "home": "Schalke",
+      "away": "RB Leipzig",
+      "scoreHome": "0",
+      "scoreAway": "0",
+      "phase": "18'",
+      "event": "Bundesliga",
+      "updated": "14:48 UTC"
+    }
+  ],
+  "updated": "14:48 UTC",
+  "count": 5,
+  "source": "live"
 }
