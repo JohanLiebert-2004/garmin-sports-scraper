@@ -1,47 +1,6 @@
 {
-  "matches": [
-    {
-      "sport": "Football",
-      "home": "Spurs",
-      "away": "C Palace",
-      "scoreHome": "1",
-      "scoreAway": "0",
-      "phase": "63'",
-      "event": "EPL",
-      "updated": "18:51 UTC"
-    },
-    {
-      "sport": "Football",
-      "home": "Betis",
-      "away": "M\u00e1laga",
-      "scoreHome": "2",
-      "scoreAway": "0",
-      "phase": "57'",
-      "event": "La Liga",
-      "updated": "18:51 UTC"
-    },
-    {
-      "sport": "Football",
-      "home": "Bayern",
-      "away": "Dortmund",
-      "scoreHome": "1",
-      "scoreAway": "0",
-      "phase": "57'",
-      "event": "Bundesliga",
-      "updated": "18:51 UTC"
-    },
-    {
-      "sport": "Football",
-      "home": "Udinese",
-      "away": "AS Roma",
-      "scoreHome": "2",
-      "scoreAway": "5",
-      "phase": "90'+4'",
-      "event": "Serie A",
-      "updated": "18:51 UTC"
-    }
-  ],
-  "updated": "18:51 UTC",
-  "count": 4,
-  "source": "live"
+  "matches": [],
+  "updated": "22:00 UTC",
+  "count": 0,
+  "source": "no-live-matches"
 }
