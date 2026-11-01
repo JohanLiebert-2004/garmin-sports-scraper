@@ -1,6 +1,47 @@
 {
-  "matches": [],
-  "updated": "07:16 UTC",
-  "count": 0,
-  "source": "no-live-matches"
+  "matches": [
+    {
+      "sport": "Football",
+      "home": "Getafe",
+      "away": "Sevilla",
+      "scoreHome": "0",
+      "scoreAway": "1",
+      "phase": "58'",
+      "event": "La Liga",
+      "updated": "14:21 UTC"
+    },
+    {
+      "sport": "Football",
+      "home": "Frosinone",
+      "away": "Torino",
+      "scoreHome": "0",
+      "scoreAway": "0",
+      "phase": "19'",
+      "event": "Serie A",
+      "updated": "14:21 UTC"
+    },
+    {
+      "sport": "Football",
+      "home": "Lazio",
+      "away": "Cagliari",
+      "scoreHome": "0",
+      "scoreAway": "0",
+      "phase": "19'",
+      "event": "Serie A",
+      "updated": "14:21 UTC"
+    },
+    {
+      "sport": "Football",
+      "home": "Strasbourg",
+      "away": "Auxerre",
+      "scoreHome": "0",
+      "scoreAway": "0",
+      "phase": "21'",
+      "event": "Ligue 1",
+      "updated": "14:21 UTC"
+    }
+  ],
+  "updated": "14:21 UTC",
+  "count": 4,
+  "source": "live"
 }
