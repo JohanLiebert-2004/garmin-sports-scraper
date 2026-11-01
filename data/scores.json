@@ -2,46 +2,16 @@
   "matches": [
     {
       "sport": "Football",
-      "home": "Getafe",
-      "away": "Sevilla",
+      "home": "Elche",
+      "away": "Valencia",
       "scoreHome": "0",
       "scoreAway": "1",
-      "phase": "58'",
+      "phase": "70'",
       "event": "La Liga",
-      "updated": "14:21 UTC"
-    },
-    {
-      "sport": "Football",
-      "home": "Frosinone",
-      "away": "Torino",
-      "scoreHome": "0",
-      "scoreAway": "0",
-      "phase": "19'",
-      "event": "Serie A",
-      "updated": "14:21 UTC"
-    },
-    {
-      "sport": "Football",
-      "home": "Lazio",
-      "away": "Cagliari",
-      "scoreHome": "0",
-      "scoreAway": "0",
-      "phase": "19'",
-      "event": "Serie A",
-      "updated": "14:21 UTC"
-    },
-    {
-      "sport": "Football",
-      "home": "Strasbourg",
-      "away": "Auxerre",
-      "scoreHome": "0",
-      "scoreAway": "0",
-      "phase": "21'",
-      "event": "Ligue 1",
-      "updated": "14:21 UTC"
+      "updated": "19:00 UTC"
     }
   ],
-  "updated": "14:21 UTC",
-  "count": 4,
+  "updated": "19:00 UTC",
+  "count": 1,
   "source": "live"
 }
