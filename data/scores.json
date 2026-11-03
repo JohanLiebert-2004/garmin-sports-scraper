@@ -1,17 +1,6 @@
 {
-  "matches": [
-    {
-      "sport": "Football",
-      "home": "Sassuolo",
-      "away": "Fiorentina",
-      "scoreHome": "1",
-      "scoreAway": "2",
-      "phase": "52'",
-      "event": "Serie A",
-      "updated": "18:41 UTC"
-    }
-  ],
-  "updated": "18:41 UTC",
-  "count": 1,
-  "source": "live"
+  "matches": [],
+  "updated": "01:17 UTC",
+  "count": 0,
+  "source": "no-live-matches"
 }
