@@ -1,57 +1,6 @@
 {
-  "matches": [
-    {
-      "sport": "Football",
-      "home": "Atl\u00e9tico",
-      "away": "Bayern",
-      "scoreHome": "0",
-      "scoreAway": "2",
-      "phase": "83'",
-      "event": "UCL",
-      "updated": "21:41 UTC"
-    },
-    {
-      "sport": "Football",
-      "home": "Barcelona",
-      "away": "Aston Villa",
-      "scoreHome": "3",
-      "scoreAway": "0",
-      "phase": "81'",
-      "event": "UCL",
-      "updated": "21:41 UTC"
-    },
-    {
-      "sport": "Football",
-      "home": "Bodo/Glimt",
-      "away": "Lille",
-      "scoreHome": "0",
-      "scoreAway": "0",
-      "phase": "85'",
-      "event": "UCL",
-      "updated": "21:41 UTC"
-    },
-    {
-      "sport": "Football",
-      "home": "Feyenoord",
-      "away": "Inter Milan",
-      "scoreHome": "0",
-      "scoreAway": "3",
-      "phase": "81'",
-      "event": "UCL",
-      "updated": "21:41 UTC"
-    },
-    {
-      "sport": "Football",
-      "home": "LASK Linz",
-      "away": "S Bratislava",
-      "scoreHome": "4",
-      "scoreAway": "0",
-      "phase": "82'",
-      "event": "UCL",
-      "updated": "21:41 UTC"
-    }
-  ],
-  "updated": "21:42 UTC",
-  "count": 5,
-  "source": "live"
+  "matches": [],
+  "updated": "01:40 UTC",
+  "count": 0,
+  "source": "no-live-matches"
 }
