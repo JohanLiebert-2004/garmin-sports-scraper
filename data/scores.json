@@ -1,57 +1,6 @@
 {
-  "matches": [
-    {
-      "sport": "Football",
-      "home": "Dortmund",
-      "away": "Betis",
-      "scoreHome": "2",
-      "scoreAway": "1",
-      "phase": "89'",
-      "event": "UCL",
-      "updated": "21:52 UTC"
-    },
-    {
-      "sport": "Football",
-      "home": "FC Porto",
-      "away": "Napoli",
-      "scoreHome": "4",
-      "scoreAway": "1",
-      "phase": "90'+2'",
-      "event": "UCL",
-      "updated": "21:52 UTC"
-    },
-    {
-      "sport": "Football",
-      "home": "Lens",
-      "away": "Como",
-      "scoreHome": "1",
-      "scoreAway": "8",
-      "phase": "90'+1'",
-      "event": "UCL",
-      "updated": "21:52 UTC"
-    },
-    {
-      "sport": "Football",
-      "home": "PSV",
-      "away": "Club Brugge",
-      "scoreHome": "1",
-      "scoreAway": "2",
-      "phase": "90'+1'",
-      "event": "UCL",
-      "updated": "21:52 UTC"
-    },
-    {
-      "sport": "Football",
-      "home": "RB Leipzig",
-      "away": "Man City",
-      "scoreHome": "2",
-      "scoreAway": "3",
-      "phase": "90'+2'",
-      "event": "UCL",
-      "updated": "21:52 UTC"
-    }
-  ],
-  "updated": "21:52 UTC",
-  "count": 5,
-  "source": "live"
+  "matches": [],
+  "updated": "01:54 UTC",
+  "count": 0,
+  "source": "no-live-matches"
 }
