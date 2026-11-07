@@ -1,47 +1,6 @@
 {
-  "matches": [
-    {
-      "sport": "Football",
-      "home": "Nottm Forest",
-      "away": "Man City",
-      "scoreHome": "3",
-      "scoreAway": "1",
-      "phase": "86'",
-      "event": "EPL",
-      "updated": "19:16 UTC"
-    },
-    {
-      "sport": "Football",
-      "home": "Osasuna",
-      "away": "Athletic",
-      "scoreHome": "0",
-      "scoreAway": "1",
-      "phase": "86'",
-      "event": "La Liga",
-      "updated": "19:16 UTC"
-    },
-    {
-      "sport": "Football",
-      "home": "Stuttgart",
-      "away": "Bremen",
-      "scoreHome": "1",
-      "scoreAway": "0",
-      "phase": "87'",
-      "event": "Bundesliga",
-      "updated": "19:16 UTC"
-    },
-    {
-      "sport": "Football",
-      "home": "Auxerre",
-      "away": "Paris FC",
-      "scoreHome": "0",
-      "scoreAway": "0",
-      "phase": "59'",
-      "event": "Ligue 1",
-      "updated": "19:16 UTC"
-    }
-  ],
-  "updated": "19:16 UTC",
-  "count": 4,
-  "source": "live"
+  "matches": [],
+  "updated": "22:48 UTC",
+  "count": 0,
+  "source": "no-live-matches"
 }
