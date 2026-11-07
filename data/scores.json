@@ -1,6 +1,57 @@
 {
-  "matches": [],
-  "updated": "08:17 UTC",
-  "count": 0,
-  "source": "no-live-matches"
+  "matches": [
+    {
+      "sport": "Football",
+      "home": "M\u00e1laga",
+      "away": "Racing",
+      "scoreHome": "1",
+      "scoreAway": "2",
+      "phase": "90'+5'",
+      "event": "La Liga",
+      "updated": "14:56 UTC"
+    },
+    {
+      "sport": "Football",
+      "home": "Dortmund",
+      "away": "Elversberg",
+      "scoreHome": "0",
+      "scoreAway": "0",
+      "phase": "27'",
+      "event": "Bundesliga",
+      "updated": "14:56 UTC"
+    },
+    {
+      "sport": "Football",
+      "home": "Mainz",
+      "away": "Bayern",
+      "scoreHome": "0",
+      "scoreAway": "1",
+      "phase": "27'",
+      "event": "Bundesliga",
+      "updated": "14:56 UTC"
+    },
+    {
+      "sport": "Football",
+      "home": "RB Leipzig",
+      "away": "Augsburg",
+      "scoreHome": "0",
+      "scoreAway": "1",
+      "phase": "27'",
+      "event": "Bundesliga",
+      "updated": "14:56 UTC"
+    },
+    {
+      "sport": "Football",
+      "home": "Paderborn",
+      "away": "Frankfurt",
+      "scoreHome": "0",
+      "scoreAway": "1",
+      "phase": "27'",
+      "event": "Bundesliga",
+      "updated": "14:56 UTC"
+    }
+  ],
+  "updated": "14:56 UTC",
+  "count": 5,
+  "source": "live"
 }
