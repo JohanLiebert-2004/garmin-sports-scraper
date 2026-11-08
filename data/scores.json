@@ -1,37 +1,6 @@
 {
-  "matches": [
-    {
-      "sport": "Football",
-      "home": "Hoffenheim",
-      "away": "Schalke",
-      "scoreHome": "2",
-      "scoreAway": "0",
-      "phase": "67'",
-      "event": "Bundesliga",
-      "updated": "19:54 UTC"
-    },
-    {
-      "sport": "Football",
-      "home": "Fiorentina",
-      "away": "Juventus",
-      "scoreHome": "1",
-      "scoreAway": "0",
-      "phase": "6'",
-      "event": "Serie A",
-      "updated": "19:54 UTC"
-    },
-    {
-      "sport": "Football",
-      "home": "Lens",
-      "away": "Marseille",
-      "scoreHome": "0",
-      "scoreAway": "1",
-      "phase": "9'",
-      "event": "Ligue 1",
-      "updated": "19:54 UTC"
-    }
-  ],
-  "updated": "19:54 UTC",
-  "count": 3,
-  "source": "live"
+  "matches": [],
+  "updated": "23:24 UTC",
+  "count": 0,
+  "source": "no-live-matches"
 }
