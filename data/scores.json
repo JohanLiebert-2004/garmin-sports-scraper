@@ -1,6 +1,57 @@
 {
-  "matches": [],
-  "updated": "08:29 UTC",
-  "count": 0,
-  "source": "no-live-matches"
+  "matches": [
+    {
+      "sport": "Football",
+      "home": "Brighton",
+      "away": "Brentford",
+      "scoreHome": "2",
+      "scoreAway": "0",
+      "phase": "70'",
+      "event": "EPL",
+      "updated": "15:31 UTC"
+    },
+    {
+      "sport": "Football",
+      "home": "C Palace",
+      "away": "Liverpool",
+      "scoreHome": "0",
+      "scoreAway": "2",
+      "phase": "70'",
+      "event": "EPL",
+      "updated": "15:31 UTC"
+    },
+    {
+      "sport": "Football",
+      "home": "Ipswich",
+      "away": "Bournemouth",
+      "scoreHome": "0",
+      "scoreAway": "2",
+      "phase": "74'",
+      "event": "EPL",
+      "updated": "15:31 UTC"
+    },
+    {
+      "sport": "Football",
+      "home": "Sunderland",
+      "away": "Chelsea",
+      "scoreHome": "1",
+      "scoreAway": "0",
+      "phase": "67'",
+      "event": "EPL",
+      "updated": "15:31 UTC"
+    },
+    {
+      "sport": "Football",
+      "home": "Real Sociedad",
+      "away": "Rayo",
+      "scoreHome": "0",
+      "scoreAway": "0",
+      "phase": "12'",
+      "event": "La Liga",
+      "updated": "15:31 UTC"
+    }
+  ],
+  "updated": "15:31 UTC",
+  "count": 5,
+  "source": "live"
 }
