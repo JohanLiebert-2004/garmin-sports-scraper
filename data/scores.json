@@ -2,56 +2,36 @@
   "matches": [
     {
       "sport": "Football",
-      "home": "Brighton",
-      "away": "Brentford",
+      "home": "Hoffenheim",
+      "away": "Schalke",
       "scoreHome": "2",
       "scoreAway": "0",
-      "phase": "70'",
-      "event": "EPL",
-      "updated": "15:31 UTC"
+      "phase": "67'",
+      "event": "Bundesliga",
+      "updated": "19:54 UTC"
     },
     {
       "sport": "Football",
-      "home": "C Palace",
-      "away": "Liverpool",
-      "scoreHome": "0",
-      "scoreAway": "2",
-      "phase": "70'",
-      "event": "EPL",
-      "updated": "15:31 UTC"
-    },
-    {
-      "sport": "Football",
-      "home": "Ipswich",
-      "away": "Bournemouth",
-      "scoreHome": "0",
-      "scoreAway": "2",
-      "phase": "74'",
-      "event": "EPL",
-      "updated": "15:31 UTC"
-    },
-    {
-      "sport": "Football",
-      "home": "Sunderland",
-      "away": "Chelsea",
+      "home": "Fiorentina",
+      "away": "Juventus",
       "scoreHome": "1",
       "scoreAway": "0",
-      "phase": "67'",
-      "event": "EPL",
-      "updated": "15:31 UTC"
+      "phase": "6'",
+      "event": "Serie A",
+      "updated": "19:54 UTC"
     },
     {
       "sport": "Football",
-      "home": "Real Sociedad",
-      "away": "Rayo",
+      "home": "Lens",
+      "away": "Marseille",
       "scoreHome": "0",
-      "scoreAway": "0",
-      "phase": "12'",
-      "event": "La Liga",
-      "updated": "15:31 UTC"
+      "scoreAway": "1",
+      "phase": "9'",
+      "event": "Ligue 1",
+      "updated": "19:54 UTC"
     }
   ],
-  "updated": "15:31 UTC",
-  "count": 5,
+  "updated": "19:54 UTC",
+  "count": 3,
   "source": "live"
 }
