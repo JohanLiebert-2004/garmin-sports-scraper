@@ -1,57 +1,6 @@
 {
-  "matches": [
-    {
-      "sport": "Football",
-      "home": "Newcastle",
-      "away": "Arsenal",
-      "scoreHome": "0",
-      "scoreAway": "1",
-      "phase": "37'",
-      "event": "EPL",
-      "updated": "18:07 UTC"
-    },
-    {
-      "sport": "Football",
-      "home": "Sevilla",
-      "away": "Betis",
-      "scoreHome": "0",
-      "scoreAway": "0",
-      "phase": "33'",
-      "event": "La Liga",
-      "updated": "18:07 UTC"
-    },
-    {
-      "sport": "Football",
-      "home": "Schalke",
-      "away": "Stuttgart",
-      "scoreHome": "0",
-      "scoreAway": "0",
-      "phase": "37'",
-      "event": "Bundesliga",
-      "updated": "18:07 UTC"
-    },
-    {
-      "sport": "Football",
-      "home": "Parma",
-      "away": "AS Roma",
-      "scoreHome": "0",
-      "scoreAway": "1",
-      "phase": "51'",
-      "event": "Serie A",
-      "updated": "18:07 UTC"
-    },
-    {
-      "sport": "Football",
-      "home": "Nice",
-      "away": "PSG",
-      "scoreHome": "1",
-      "scoreAway": "2",
-      "phase": "85'",
-      "event": "Ligue 1",
-      "updated": "18:07 UTC"
-    }
-  ],
-  "updated": "18:07 UTC",
-  "count": 5,
-  "source": "live"
+  "matches": [],
+  "updated": "23:08 UTC",
+  "count": 0,
+  "source": "no-live-matches"
 }
