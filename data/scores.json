@@ -1,6 +1,27 @@
 {
-  "matches": [],
-  "updated": "11:14 UTC",
-  "count": 0,
-  "source": "no-live-matches"
+  "matches": [
+    {
+      "sport": "Football",
+      "home": "Osasuna",
+      "away": "M\u00e1laga",
+      "scoreHome": "1",
+      "scoreAway": "0",
+      "phase": "46'",
+      "event": "La Liga",
+      "updated": "18:32 UTC"
+    },
+    {
+      "sport": "Football",
+      "home": "Milan",
+      "away": "Frosinone",
+      "scoreHome": "5",
+      "scoreAway": "1",
+      "phase": "73'",
+      "event": "Serie A",
+      "updated": "18:32 UTC"
+    }
+  ],
+  "updated": "18:32 UTC",
+  "count": 2,
+  "source": "live"
 }
