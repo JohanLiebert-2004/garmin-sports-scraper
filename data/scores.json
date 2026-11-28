@@ -1,6 +1,37 @@
 {
-  "matches": [],
-  "updated": "08:28 UTC",
-  "count": 0,
-  "source": "no-live-matches"
+  "matches": [
+    {
+      "sport": "Football",
+      "home": "M\u00e1laga",
+      "away": "Athletic",
+      "scoreHome": "3",
+      "scoreAway": "4",
+      "phase": "90'",
+      "event": "La Liga",
+      "updated": "17:07 UTC"
+    },
+    {
+      "sport": "Football",
+      "home": "Torino",
+      "away": "Lazio",
+      "scoreHome": "0",
+      "scoreAway": "0",
+      "phase": "5'",
+      "event": "Serie A",
+      "updated": "17:07 UTC"
+    },
+    {
+      "sport": "Football",
+      "home": "Angers",
+      "away": "Lens",
+      "scoreHome": "1",
+      "scoreAway": "1",
+      "phase": "45'+5'",
+      "event": "Ligue 1",
+      "updated": "17:07 UTC"
+    }
+  ],
+  "updated": "17:07 UTC",
+  "count": 3,
+  "source": "live"
 }
